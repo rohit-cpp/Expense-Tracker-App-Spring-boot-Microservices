@@ -27,7 +27,7 @@ public class UserInfo {
     @Id
     @Column(name = "user_Id")
     private String userId;
-
+    private String email;
     private String username;
     private String password;
 

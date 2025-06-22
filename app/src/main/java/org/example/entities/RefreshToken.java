@@ -30,7 +30,7 @@ public class RefreshToken {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String token;
-    private Instant expireDate;
+    private Instant expiryDate;
 
     @OneToOne
     @JoinColumn(name = "id", referencedColumnName = "user_id")
