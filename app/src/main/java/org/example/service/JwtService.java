@@ -71,4 +71,9 @@ public class JwtService {
 
         return Keys.hmacShaKeyFor(keyBytes);
     }
+
+    public String GenerateToken(String username) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'GenerateToken'");
+    }
 }
